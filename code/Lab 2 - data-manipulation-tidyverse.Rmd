@@ -1,5 +1,5 @@
 ---
-title: 'BMSS R Tutorial 2: Data manipulation and using Tidyverse'
+title: 'Lab 2: Data manipulation and using Tidyverse'
 author: "Justin Baumann"
 date: "`r format(Sys.time(), '%d %B, %Y')`"
 output:
@@ -16,7 +16,7 @@ editor_options:
 ---
 # **LEARNING OBJECTIVES**
 IN THIS TUTORIAL YOU WILL LEARN: </br>
-1.) How to deal with dates and time in R (using lubridate)
+1.) How to deal with dates and time in R (using lubridate) </br>
 2.) How to subset, filter, and trim data</br>
 3.) How to use the 'pipe' (%>%) in dplyr and Tidyverse </br>
 4.) A first glimpse at a plot</br>
