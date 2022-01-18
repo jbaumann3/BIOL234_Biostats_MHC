@@ -466,6 +466,8 @@ Now that GitHub is setup for us, we can use it! Let's grab a repository from Git
 7.) A window pops up to show you what you are committing. You must make a committ note or the committ will not work, so type a message in the right box (like 'file created'). You can use this box to write notes about your updated code anytime you commit to your repo. This can be helpful if you start reverting to old version after a large mistake or data loss (let's hope that day never comes)
 8.) Click "Commit"
 9.) Click "Push"
+10.) Close the Commit window! You did it :) 
+Refresh the github page to confirm that your new file is up there! 
 
 
 
