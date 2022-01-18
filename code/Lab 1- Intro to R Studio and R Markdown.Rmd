@@ -457,7 +457,15 @@ Now that GitHub is setup for us, we can use it! Let's grab a repository from Git
 
 ## Create a new Rscript for your homework/lab for today and push it to your github repository 
 
-
+1.) Create a new R markdown script (file ; new file; rmarkdown)
+2.) Feel free to start/complete the lab assignment (#8, below) in this Rmarkdown doc
+3.) When you are ready to save, save the file within your local (server) repository (in the folder you cloned from github)
+4.) Next, navigate to the top right quadrant of RStudio and find the 'Git' tab. Click on it. 
+5.) Here, you see a checklist of files that have been changed (or not) in that folder compared to the github repo (the one that is online on github.com)
+6.) You can click the check box for the file you just made and then click 'Commit'
+7.) A window pops up to show you what you are committing. You must make a committ note or the committ will not work, so type a message in the right box (like 'file created'). You can use this box to write notes about your updated code anytime you commit to your repo. This can be helpful if you start reverting to old version after a large mistake or data loss (let's hope that day never comes)
+8.) Click "Commit"
+9.) Click "Push"
 
 
 
