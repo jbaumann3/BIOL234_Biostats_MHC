@@ -452,7 +452,7 @@ Now that GitHub is setup for us, we can use it! Let's grab a repository from Git
 4.) Back in RStudio, click on File; New Project; Version Control; Git. Then paste the URL 
 5.) Press tab to fill in the project directory name or write a new name here
 7.) Change the "Create project a subdirectory of" value from "~" or whatever it is, to whatever you would like it to be. I suggest placing this project within a directory (folder) titles "BIOL234" or similar. 
-8.) You may get some sectuiry warnings. Just press OK.
+8.) You may get some security warnings. Just press OK.
 9. WE DID IT! Now, let's edit a file and learn to push/pull files. 
 
 ## Create a new Rscript for your homework/lab for today and push it to your github repository 
@@ -469,22 +469,16 @@ Now that GitHub is setup for us, we can use it! Let's grab a repository from Git
 10.) Close the Commit window! You did it :) 
 Refresh the github page to confirm that your new file is up there! 
 
-
-
-
-
-
-
 # **8.) Applying what we've learned**
 
-1.) Make a folder for your R tutorial and practice. Name it whatever you would like. 
-  a.) Add sub-folders as needed (code, data, figures, etc)
+1.) Make a github account, setup github to integrate with Rstudio, then clone the BIOL234 repo onto your device/server. You can now use version control via GitHub for your code! During the github setup you will have already made an Rproject for yourself! 
+
+1.) Make a folder for your labs. Name it whatever you would like. 
+  a.) Add sub-folders as needed (code, data, figures, etc) if you wish to do so. 
 
 2.) Make this folder your working directory
 
-3.) Setup a new R project, name it, and place the .Rproj file in the new folder you made.
-
-4.) Make a new .rmd document
+3.) Make a new .rmd document
   a.) Make sure your title / header is completed
   b.) make a code chunk!
   c.) Don't forget that you can use text and special text formatting to make notes, label sections, etc within your document. 
@@ -498,6 +492,12 @@ Refresh the github page to confirm that your new file is up there!
 7.) Find a .csv file online and read it into R! -- You can find lots of data here: https://github.com/rfordatascience/tidytuesday
 
 8.) Write the dataframe to a file and read it back into R!
+
+9.) Knit your Rmd into a .html or .pdf. I know it won't be anything fancy this week but it is good practice.
+
+9.) During these steps or after, commit your changes to GitHub and check to make sure they show up. If you are having issues with GitHub please let me know and we can discuss/ troubleshoot. 
+
+10.) When you are done, you can turn in your finished .RMD document on Moodle! Reminder that GitHub is for version control and you all have your own repositories. I can techincally access them if you set them to public but I would need your username or a link to find them. To make everything easier for everyone, just download your .rmd and .html/.pdf output files and turn them in on Moodle. We will turn in and receive grades/feedback for ALL assignments via Moodle. 
 
 
 
