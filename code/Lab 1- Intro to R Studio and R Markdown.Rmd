@@ -21,8 +21,8 @@ IN THIS TUTORIAL YOU WILL LEARN: </br>
 2.) How to install and load packages </br>
 3.) How to view data  </br>
 4.) How to read and write data files </br>
-5.) How to use RMarkdown to make a document 
-6.) How to use GitHub for version control
+5.) How to use RMarkdown to make a document </br>
+6.) How to use GitHub for version control </br>
 
 # Additional Tutorials and Resources
 [Datacamp Tidyverse tutorial](https://www.datacamp.com/community/tutorials/tidyverse-tutorial-r)
@@ -497,7 +497,7 @@ Refresh the github page to confirm that your new file is up there!
 
 9.) During these steps or after, commit your changes to GitHub and check to make sure they show up. If you are having issues with GitHub please let me know and we can discuss/ troubleshoot. 
 
-10.) When you are done, you can turn in your finished .RMD document on Moodle! Reminder that GitHub is for version control and you all have your own repositories. I can techincally access them if you set them to public but I would need your username or a link to find them. To make everything easier for everyone, just download your .rmd and .html/.pdf output files and turn them in on Moodle. We will turn in and receive grades/feedback for ALL assignments via Moodle. 
+10.) When you are done, you can turn in your finished .RMD document on Moodle! Reminder that GitHub is for version control and you all have your own repositories. I can technically access them if you set them to public but I would need your username or a link to find them. To make everything easier for everyone, just download your .rmd and .html/.pdf output files and turn them in on Moodle. We will turn in and receive grades/feedback for ALL assignments via Moodle. 
 
 
 

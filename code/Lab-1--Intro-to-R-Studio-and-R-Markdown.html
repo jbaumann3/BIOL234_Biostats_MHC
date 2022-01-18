@@ -1518,7 +1518,7 @@ div.tocify {
 
 <div id="learning-objectives" class="section level1">
 <h1><strong>Learning Objectives</strong></h1>
-<p>IN THIS TUTORIAL YOU WILL LEARN: </br> 1.) How to navigate RStudio </br> 2.) How to install and load packages </br> 3.) How to view data </br> 4.) How to read and write data files </br> 5.) How to use RMarkdown to make a document 6.) How to use GitHub for version control</p>
+<p>IN THIS TUTORIAL YOU WILL LEARN: </br> 1.) How to navigate RStudio </br> 2.) How to install and load packages </br> 3.) How to view data </br> 4.) How to read and write data files </br> 5.) How to use RMarkdown to make a document </br> 6.) How to use GitHub for version control </br></p>
 </div>
 <div id="additional-tutorials-and-resources" class="section level1">
 <h1>Additional Tutorials and Resources</h1>
@@ -3501,22 +3501,45 @@ library(patchwork) #to make multipaneled graphs on one page</code></pre>
 <h2>The GitHub Repository</h2>
 <p>Your code is kept in a GitHub Repository (or ‘repo’). This is basically just a folder on a cloud server. Your code is also kept on the computer (or rstudio.mtholyoke.edu server) that you are working from. If other people are also working on the files in your repo, they may have their own local copies of it as well. In this tutorial, we will learn how tyo integrate github with Rstudio to make version control and backing up our files and easy part of our coding pipeline!</p>
 </div>
-<div id="create-or-login-to-a-github-account-and-set-it-up-on-rstudio" class="section level2">
-<h2>Create or login to a GitHub account and set it up on RStudio</h2>
+<div id="create-or-login-to-a-github-account-and-set-it-up-on-rstudio-do-once-only" class="section level2">
+<h2>Create or login to a GitHub account and set it up on RStudio (do once only)</h2>
 <p>We will use the rstudio.mtholyoke.edu server to do all of this. You can use your personal computer / Rstudio if you prefer.</p>
-<p>1.) Create or login to your github account at <a href="https://github.com">GitHub</a></p>
+<p><strong>We only need to do this process one time!</strong></p>
+<p>1.) Create or login to your github account at <a href="https://github.com">GitHub</a> 2.) Configure github on rstudio.mtholyoke.edu a.) Go to <a href="https://rstudio.mtholyoke.edu">https://rstudio.mtholyoke.edu</a> and sign in b.) select ‘shell’ from the tools menu c.) in the ‘shell’ window at the bottom left enter the following commands (replace XX with your github username or email)</p>
+<p>git config –global user.name ‘XX’ git config –global user.email ‘XX’ git config –global –list</p>
+<p>d.) close the shell. GitHub is now configured</p>
+</div>
+<div id="generate-ssh-key-do-once-only" class="section level2">
+<h2>Generate SSH key (do once only)</h2>
+<p>1.) on Rstudio, select tools; global options; Git/SVN 2.) Click “Create RSA Key” and follow the prompts 3.) DO NOT use a passphrase here! 4.) Click ‘Create’</p>
+</div>
+<div id="add-a-public-key-to-github-do-once-only" class="section level2">
+<h2>Add a public key to GitHub (do once only)</h2>
+<p>1.) In RStudio, click on the ‘View public key’ (Tools; global options; Git/SVN) 2.) Copy the key 3.) Open github.com and log in 4.) Click on the icon on the top right that is your profile picture and select ‘Settings’) 5.) Click on ‘SSH and GPG Keys’ 6.) Click on ‘New SSH key’ 7.) Title this ‘MHC R server’ (unless you are using your local RStudio install) 8.) Paste in the public key 9.) Github may prompt you for your password. Enter it if it does this. 10.) Close the window</p>
+</div>
+<div id="clone-a-repository-from-github-you-can-will-do-this-everytime-you-start-a-new-lab-or-assignment" class="section level2">
+<h2>Clone a repository from GitHub (you can/ will do this everytime you start a new lab or assignment)</h2>
+<p>Now that GitHub is setup for us, we can use it! Let’s grab a repository from GitHub and clone it to our own individual server instances</p>
+<p>1.) Open <a href="https://github.com/jbaumann3/BIOL234_Biostats_MHC">this repo:</a> 2.) Click on the Green “Code” button and select SSH from the pop up 3.) Copy the code 4.) Back in RStudio, click on File; New Project; Version Control; Git. Then paste the URL 5.) Press tab to fill in the project directory name or write a new name here 7.) Change the “Create project a subdirectory of” value from “~” or whatever it is, to whatever you would like it to be. I suggest placing this project within a directory (folder) titles “BIOL234” or similar. 8.) You may get some security warnings. Just press OK. 9. WE DID IT! Now, let’s edit a file and learn to push/pull files.</p>
+</div>
+<div id="create-a-new-rscript-for-your-homeworklab-for-today-and-push-it-to-your-github-repository" class="section level2">
+<h2>Create a new Rscript for your homework/lab for today and push it to your github repository</h2>
+<p>1.) Create a new R markdown script (file ; new file; rmarkdown) 2.) Feel free to start/complete the lab assignment (#8, below) in this Rmarkdown doc 3.) When you are ready to save, save the file within your local (server) repository (in the folder you cloned from github) 4.) Next, navigate to the top right quadrant of RStudio and find the ‘Git’ tab. Click on it. 5.) Here, you see a checklist of files that have been changed (or not) in that folder compared to the github repo (the one that is online on github.com) 6.) You can click the check box for the file you just made and then click ‘Commit’ 7.) A window pops up to show you what you are committing. You must make a committ note or the committ will not work, so type a message in the right box (like ‘file created’). You can use this box to write notes about your updated code anytime you commit to your repo. This can be helpful if you start reverting to old version after a large mistake or data loss (let’s hope that day never comes) 8.) Click “Commit” 9.) Click “Push” 10.) Close the Commit window! You did it :) Refresh the github page to confirm that your new file is up there!</p>
 </div>
 </div>
 <div id="applying-what-weve-learned" class="section level1">
 <h1><strong>8.) Applying what we’ve learned</strong></h1>
-<p>1.) Make a folder for your R tutorial and practice. Name it whatever you would like. a.) Add sub-folders as needed (code, data, figures, etc)</p>
+<p>1.) Make a github account, setup github to integrate with Rstudio, then clone the BIOL234 repo onto your device/server. You can now use version control via GitHub for your code! During the github setup you will have already made an Rproject for yourself!</p>
+<p>1.) Make a folder for your labs. Name it whatever you would like. a.) Add sub-folders as needed (code, data, figures, etc) if you wish to do so.</p>
 <p>2.) Make this folder your working directory</p>
-<p>3.) Setup a new R project, name it, and place the .Rproj file in the new folder you made.</p>
-<p>4.) Make a new .rmd document a.) Make sure your title / header is completed b.) make a code chunk! c.) Don’t forget that you can use text and special text formatting to make notes, label sections, etc within your document.</p>
+<p>3.) Make a new .rmd document a.) Make sure your title / header is completed b.) make a code chunk! c.) Don’t forget that you can use text and special text formatting to make notes, label sections, etc within your document.</p>
 <p>5.) Try loading some packages. Remember that you may need to install them first.</p>
 <p>6.) Practice head, tail, and str (you can use the built in mtcars dataframe) a.) Change a column from a factor to a number b.) Change a column from a number to a factor</p>
 <p>7.) Find a .csv file online and read it into R! – You can find lots of data here: <a href="https://github.com/rfordatascience/tidytuesday" class="uri">https://github.com/rfordatascience/tidytuesday</a></p>
 <p>8.) Write the dataframe to a file and read it back into R!</p>
+<p>9.) Knit your Rmd into a .html or .pdf. I know it won’t be anything fancy this week but it is good practice.</p>
+<p>9.) During these steps or after, commit your changes to GitHub and check to make sure they show up. If you are having issues with GitHub please let me know and we can discuss/ troubleshoot.</p>
+<p>10.) When you are done, you can turn in your finished .RMD document on Moodle! Reminder that GitHub is for version control and you all have your own repositories. I can technically access them if you set them to public but I would need your username or a link to find them. To make everything easier for everyone, just download your .rmd and .html/.pdf output files and turn them in on Moodle. We will turn in and receive grades/feedback for ALL assignments via Moodle.</p>
 </div>
 
 
