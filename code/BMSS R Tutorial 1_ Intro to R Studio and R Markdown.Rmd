@@ -1,0 +1,426 @@
+---
+title: 'BMSS R Tutorial 1: Intro to R Studio and R Markdown'
+author: "Justin Baumann"
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+output:
+  html_document:
+    df_print: kable
+    toc: yes
+    toc_float: yes
+  pdf_document:
+    toc: yes
+  word_document:
+    toc: yes
+editor_options:
+  chunk_output_type: console
+---
+   
+# **Learning Objectives**
+IN THIS TUTORIAL YOU WILL LEARN: </br>
+1.) How to navigate RStudio </br>
+2.) How to install and load packages </br>
+3.) How to view data  </br>
+4.) How to read and write data files </br>
+5.) How to use RMarkdown to make a document 
+
+# Additional Tutorials and Resources
+[Datacamp Tidyverse tutorial](https://www.datacamp.com/community/tutorials/tidyverse-tutorial-r)
+
+[Books and workshops for learning tidyverse](https://www.tidyverse.org/learn/)
+
+[A nice step by step walkthough of Tidyverse functions](https://and.netlify.app/tutorials/02/)
+
+[Video Tidyverse tutorial](https://www.youtube.com/watch?v=JtQfXY0lIzc)
+
+[Want to TRY some stuff on your own? Use the RStudio.cloud primers](https://rstudio.cloud/learn/primers)
+
+The best way to learn is to GOOGLE IT and try stuff </br>
+
+***
+
+# **Step 1: RStudio Layout** {.tabset .tabset-pills}
+RStudio looks like the image below. The screen can be divided into 4 sections. Use the tabs above to navigate to info about each section.
+
+## **Top Left**: Script 
+Where you will write your script(s). This is where we should be writing our code! It can be run, commented, and saved here. 
+
+## **Bottom Left**: Console/terminal
+Here you can run single lines of code and/or see error messages, warnings, and other outputs. Code should not be written here unless it is simple / for testing! Anything worth keeping should go in the script at the top left!
+
+## **Top Right**: Environment, History, etc... 
+Here you will be able to see the dataframes you have read into R or created (using the "Environment tab"). The other tabs are less useful for us at this stage, but feel free to explore them! Note: The Broom icon can be used to clear dataframes from your environment. You can minimize or maximize this and each other quadrant using the symbols at the top right of the quadrant (a collapsed page next to a full page)
+
+## **Bottom Right**: Files, Plots, Packages, etc... 
+This is the second most important quadrant (behind top left) and we can change the working directory here very easily. Here we can see the files in our present working directory (we will learn about that next!) We can also see any plots we make in the plots tab. VERY importantly, we can see the packages we have loaded or installed in the packages tab. This will be useful to you! You can also use this tab to search the internal Help dictionary, though I will note that the internet is often more helpful!
+
+## **Top Bar**: File, Edit, Etc... 
+You can use the top bar in RStudio much like in any other program. I'll let you explore that on your own. Notably, in the top right corner of the top bar you will see an 'R' in a blue box. This is where you can set the project you are working form. Using projects is great because it allows you an easy way to compartmentalize your code, data, figures, and working directory for a single project all in one place! We will get to this shortly. 
+
+# {-}
+![](/home/jbaumann/BMSS/images/RStudio_layout.png)
+
+*** 
+# **Step 2: The Working Directory** - What is it, how to check it, and how to set it! {.tabset .tabset-pills}
+
+## **What is a working directory?** 
+A working directory is simply the folder we are working from. R needs to be pointed to the right place on your computer to find/ save your files otherwise it will not know where to look. Defining a working directory is standard in just about all programming languages, so understanding this concept is a transferable skill! 
+
+## **How to check the working directory** 
+1.) We can use the getwd() command!
+```{r}
+getwd()
+```
+
+2.) We can also use the Bottom Right "Files" tab
+![](/home/jbaumann/BMSS/images/files.png)
+Here our working directory (and it's file path) can be located in the black circle. We can manually change the working directory by using the '...' in the brown circle to find any folder on our computer (or attached cloud folders), navigating to it, and then using the 'More' Cog in the green circle to "Set as working directory"
+
+3.) An alternative approach to finding the working directory in the "Files" tab. Using the "More" cog, we can select "Go to working directory"
+
+## **How to SET the working directory**
+
+1.) Using the "Files" tab to set manually: 
+  a.) Using the '...' in the 'Files' tab you can select any directory (folder) on your computer. You can also set a google drive, box, dropbox, or other shared folder as your working directory if you'd like (as long as you are syncing a folder between the cloud and your computer -- ASK me if you have questions about this!)
+  b.) Once you navigate to a directory you still need to **SET IT** as your working directory. You do this in the "More" cog-- select "Set as working directory"
+  
+2.) Set working directory with code: We use the 'setwd()' function for this
+```{r}
+setwd('~/BMSS/code')
+```
+
+Note that I am using rstudio.bowdoin.edu, a cloud version of RStudio. As such, my setwd() looks weird! '~' just tells R I want to look in the same parent directory I am currently working in. Your version of this might be setwd("C://username/bmss/code") or similar. You use a "/" between each folder. As always, ask questions if you have them! The manual setting using "Files" is usually easier for most people. 
+
+# {-}
+***
+# **Step 3: RStudio Projects!** {.tabset .tabset-pills}
+![](/home/jbaumann/BMSS/images/projects.png)
+
+RStudio Projects are a great way to compartmentalize your coding work! You can store your code, outputs, input files, figures, etc all in one directory (with subdirectories). When you load your R Project, R will automatically load the last scripts you were working with on that project as well as the dataframes and items you have read in (your environment will be ready to go!). It will also navigate to the correct working directory automatically :)
+This will make your life easier! 
+
+*To make an RStudio Project* </br>
+1.) Create a folder on your computer (or cloud storage) that will serve as the MAIN directory for your project. For example, maybe you want a "BMSS" folder or something. Within that folder I recommend you make subdirectories for all of your R related inputs and outputs. Maybe something like I have here: 
+
+![](/home/jbaumann/BMSS/images/projectex.png)
+
+2.) Once you have a MAIN directory folder created (whether you've made subdirectories or not) you can create a project! Set your main folder as your working directory. Next, navigate to the TOP RIGHT of your screen and select the down arrow next to the Big "R" in a blue box. NOW, select "New Project" --> Existing directory --> Name the project and hit done! At this point you will see a .Rproj file appear in your MAIN directory. This means you did it right :)
+This .Rproj file is how you save all of your project info. It autosaves and when you select your project (Again, TOP RIGHT of your screen, select the down arrow next to the R in the blue box and then select your project name) it will load up your scripts, environment, and set your working directory as the MAIN folder. You can navigate VERY easily from here :)
+
+# {-}
+***
+# **Step 4: Some R Basics** {.tabset .tabset-pills}
+
+## **Installing and Loading libraries**
+
+Libraries are packages of functions (and sometimes data) that we use to execute tasks in R. Packages are what make R so versatile! We can do almost anything with R if we learn how to utilize the right packages. 
+
+If we do not have a package already installed (for example, if you have only just downloaded R/ RStudio), we will need to use install.packages('packagename') to install each package that we need. 
+```{r eval=FALSE}
+install.packages(tidyverse)
+```
+OR - We can use the 'Packages' tab in the bottom right quadrant to install packages. Simply navigate to 'Packages', select 'install packages' and enter the package names you need (separate each package by commas). **NOTE** for users for rstudio.bowdoin.edu -- You cannot install packages to the Bowdoin cloud instance of R. If we need something that isn't installed we will need to contact IT!
+
+In order for a *package to work*, we must first load it! We do this as with the code libary(packagename) 
+
+```{r warning=FALSE, message=FALSE}
+library(tidyverse) #for data manipulation
+library(vegan) #contains some data we want
+library(rmarkdown) #this is how you'll build your homework assignments!
+```
+
+**It is best practice to load all of the packages you will need at the top of your script**
+
+In this course we will be following a best practices guide that utilizes a library called 'Tidyverse' for data manipulation and analysis. Tidyverse contains many packages all in one, including the very functional 'dplyr' and 'ggplot2' packages. You will almost always use Tidyverse, so make sure to load it in :)
+
+Note the '#' with notes after them in the code chunk above. These are called comments. You can comment out any line of code in R by using a '#'. This is strongly recommended when you are programming. We will discuss more later!
+
+## **Looking at data!**
+R has integrated data sets that we can use to play around with code and learn. </br>
+
+examples: mtcars (a dataframe all about cars, this is available in R without loading a package), and iris (in the 'vegan' package, great for testing out ecology related functions and code)</br></br>
+
+**Load a dataset**
+R has some test datasets built into it. Let's load one and look at it!</br>
+
+```{r}
+mtcars 
+```
+
+**Using head() and tail()**
+Now let's look at the data frame (df) using head() and tail() </br>
+These tell us the column names, and let us see the top or bottom 6 rows of data. 
+```{r}
+head(mtcars) 
+
+tail(mtcars) #tail shows the header and the last 6 rows 
+```
+
+**column attributes**
+If we want to see the attributes of each column we can use the str() function
+```{r}
+str(mtcars) #str shows attributes of each column
+```
+str() is very important because it allows you to see the type of data in each column. Types include: integer, numeric, factor, date, and more. If the data in a column are factors instead of numbers you may have an issue in your data (your spreadsheet)</br>
+
+**Changing column attributes**
+Importantly, you can change the type of the column. Here is an example
+```{r}
+mtcars$mpg=as.factor(mtcars$mpg) # Makes mpg a factor instead of a number
+str(mtcars)
+
+mtcars$mpg=as.numeric(mtcars$mpg) #Changes mpg back to a number
+str(mtcars)
+
+```
+
+**Summary statistics**
+To see summary statistics on each column (mean, median, min, max, range), we can use summary()
+```{r}
+summary(mtcars) #summarizes each column
+```
+
+**Counting rows and columns**
+To see the number of rows and columns we can use nrow() and ncol() 
+```{r}
+nrow(mtcars) #gives number of rows
+ncol(mtcars) #gives number of columns
+```
+
+**Naming dataframes**
+Rename mtcars and view in Environment tab in Rstudio
+```{r}
+a<-mtcars
+a
+head(a)
+```
+
+## **Write data to file (saving data)**
+We use the write.csv function here. a= the name of the dataframe and the name we want to give the file goes after 'file=' </br>
+The file name must be in quotes and must include an extension. Since we are using write.csv we MUST use .csv </br>
+```{r}
+write.csv(a, file='mtcars.csv')
+```
+
+## **Read a file in (import data into R)**
+NOTE: if you have a .xls file make sure you convert to .csv. Ensure the file is clean and orderly (rows x columns). Only 1 excel tab can be in each .csv, so plan accordingly
+
+```{r}
+b<-read.csv('mtcars.csv')
+head(b)
+```
+You are welcome to use other functions to read in data (including read_csv or read.xls). Especially for beginers, I strongly encourage you to use .csv format. Other file formats can get complicated (often unnecessarily complicated). That said, R can also handle .txt, .xls, images, shapefiles (for spatial analysis or GIS style work), etc. It is very versatile! Feel free to explore :)
+
+## **Other ways to read in data**
+
+#### from a weblink
+```{r}
+seps <- read.csv("http://www.mm-c.me/mdsi/hospitals93to98.csv")
+head(seps)
+```
+
+Another example <- using a tidytuesday dataset (we will discuss TidyTuesday later!)
+
+```{r}
+penguins <- read.csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2020/2020-07-28/penguins.csv')
+head(penguins)
+```
+
+# {-}
+***
+
+# **Step 5: How to use RMarkdown** {.tabset .tabset-pills}
+
+## **Intro**
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+For detailed instructions on formatting a Markdown document see
+<https://bookdown.org/yihui/rmarkdown-cookbook/html-tabs.html>
+
+A cheatsheet for quick access to R Markdown commands is also available
+<https://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf>
+
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r cars}
+summary(cars)
+```
+
+## **Make an RMarkdown (.rmd) file**
+To make an Rmarkdown file (.rmd), simply load RMarkdown
+```{r}
+library(rmarkdown)
+```
+
+Next, click 'file' --> 'new file', 'R Markdown' 
+
+A window will pop up asking you to give the new file a title and author. Write the Week of the assignment as the title and your name as the author. Click "ok"
+
+A new script will pop up in R. You should replace the top few lines with the code below (top few lines = everything that is between the first line of '---' and the second line of '---':
+
+Be sure to insert your own title and author name!
+
+```{r eval=FALSE}
+title: 'Week 2: Data Manipulation in R'
+author: "Justin Baumann"
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+output:
+  word_document:
+    toc: yes
+  html_document:
+    df_print: kable
+    toc: yes
+    toc_float: yes
+editor_options:
+  chunk_output_type: console
+
+```
+
+The lines of this header code will do the following: 
+
+title: Gives you a title
+author: Lists author name
+date: the code I wrote here will spit out the current time at the time of knitting
+output: Everytying under the output header turns on an option. We've turned on toc (table of content) for all output stles. 
+
+That's it!
+
+After you've entered this into the header on your .rmd doc you can delete everything below the --- that you see after this title section that you have just pasted in. 
+
+Ok, you are ready to make a .rmd file! 
+
+## **Formatting text**
+
+Unlike in a regular R script, using the '#' at the start of a line will not comment that line out. Instead, you can type as you would normally in an R Markdown (Rmd) document. We can format our text in the following ways: </br>
+
+![](/home/jbaumann/BMSS/images/RMD formatting.png)
+
+
+1.) '**' on either end of a word, phrase, or line will make it bold! **this is in bold** = '**'this is in bold'**' without the quotes around the **
+
+## **Making a code chunk**
+
+Since Rmd documents are text based, we need to tell RStudio when we want to actually include code. To do this, we will insert a code chunk. To insert a code chunk: </br>
+
+1.) Use the keyboard shortcut 'ctrl'+'alt'+'i' (PC) or 'cmd'+'alt'+'i' (Mac) to insert a code chunk. 
+
+2.) Navigate to the top bar (of the top left quadrant of RStudio), find "insert" and select 'R' from the drop down menu. You can also insert code chunks of other programming languages if you'd like (though I don't recommend this unless you are already familiar with those other languages)
+
+Once you have a code chunk inserted you will notice that the background of the chunk is gray instead of your default background color (white or black if you are in dark mode)
+
+## **Formatting a code chunk**
+
+A code chunk can be modified so that the output from the code chunk changes. For example, maybe you want to show me a line of code you wrote but not the warning messages that it created. Or maybe you want to show a plot you made in a nice report and exclude the code. You can easily do either of those things using the information below!
+
+![](/home/jbaumann/BMSS/images/RMD_chunk_format.png)
+Below are a few examples: 
+
+**Show code but do not evaluate (run) it** --> We want eval=FALSE for this one. 
+
+*with default eval=TRUE*
+```{r}
+head(mtcars)
+```
+
+*with eval set to =FALSE*
+```{r eval=FALSE}
+head(mtcars)
+```
+
+**Removing code to just show a plot** --> We want to use 'echo=FALSE' for this. 
+
+Here is a simple plot with echo=TRUE (the default)
+```{r}
+plot(pressure)
+```
+
+And here is the same plot with echo=FALSE (hides the code that underlies the plot)
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+## **Knitting an RMD doc**
+
+![](/home/jbaumann/BMSS/images/RMD_render.png)
+#{-}
+
+***
+# **Step 6: Formatting your code** {.tabset .tabset-pills}
+Here are a few tips for formatting your Rscripts and Rmarkdown documents: 
+
+## **Make a header!**
+
+In R Markdown (rmd) documents this is required. The header appears at the top of the page and is usually a title, author, and date. I recommend doing this for EVERY R script you write. When I write an Rscript I like to have something like this: 
+
+```{r}
+# TITLE: Summer bucket mesocosm data analysis
+# Author(s): Written by Justin Baumann and A. Student
+# last updated: 08/10/2021
+
+# Description of what the code does (i.e: This code formats date/time, plots basic temp/ph graphs, etc)
+
+```
+Note that this code chunk (aka my header) is 100% comments. It just contains basic info like title, authors, date, and a brief description of what the code does. You can also insert notes here such as where you left off, what your goals are for the code, what works and doesn't, etc. It's just a place for you to keep track of what you did/ are doing. Future you will thank you! 
+
+## **Make a section of code for loading packages**
+
+This is my #1 pro-tip for code formatting. Make a section right after your header to load ALL of the packages you will use in your R script. If you end up needing new packages as you go, add them to your loading area. This streamlines package loading so you don't have to see the "library(packagename) lines that are randomly in your code. It gives you and others a much better chance of executing your code correctly later without needing to spend hours searching for little errors. 
+
+I like to do something like this: 
+
+```{r}
+##########################
+
+# Load packages we need
+library(tidyverse) #contains data manip tools, ggplot, etc. 
+library(lubridate) #for manipulating date/time
+library(ggsci) #color palettes for graphs
+library(patchwork) #to make multipaneled graphs on one page
+```
+
+## **Use comments!**
+Another great tip is to comment your code! PLEASE PLEASE PLEASE comment your code. 
+When you solve a difficult problem in R after hours of messing with it, make a comments! you can use a '#' in front of a line of code in an Rscript to write a comment. In rmd, you can simply type without inserting a code chunk to comment. 
+
+Can't remember what a package does? Comment it (see above).
+Want to remember how to do a particular kind of data manipulation or plotting? Comment it!
+Need to remind yourself what each line of your complex function, graph, or tidyverse data manipulation does? Comments!
+
+## **Make yourself a cheat sheet of quick and useful tips and tricks!**
+This one is huge when you are just learning R for the first time. If you learn how to do something that you think might be useful, take the time to copy/paste a working example of it into an Rscript that you call your "cheat sheet" (any name is fine). You can refer back to this single R script anytime to help you do stuff in the future. This saves you hours of combing through every old Rscript you've ever written searching for something (or even worse, hours of googling). Try it!
+
+## **Comment our or delete code that doesn't run!**
+If you have code that you've written to attempt to solve a problem and it does not work you should either delete it or comment it out! Otherwise you will try to run it in the future and it will continue to not work. I like to leave failed code in my code as a comment so I know not to try that same thing again. Maybe you'd rather delete it to keep clutter down. Either is fine. If you want to comment out a large block of code (many lines) at once you can select it all with your mouse and then use crtl+shift+c to comment it all out at the same time. It's amazing. Try it!
+***
+
+# **Step 7: Applying what we've learned**
+
+1.) Make a folder for your R tutorial and practice. Name it whatever you would like. 
+  a.) Add sub-folders as needed (code, data, figures, etc)
+
+2.) Make this folder your working directory
+
+3.) Setup a new R project, name it, and place the .Rproj file in the new folder you made.
+
+4.) Make a new .rmd document
+  a.) Make sure your title / header is completed
+  b.) make a code chunk!
+  c.) Don't forget that you can use text and special text formatting to make notes, label sections, etc within your document. 
+
+5.) Try loading some packages. Remember that you may need to install them first. 
+
+6.) Practice head, tail, and str (you can use the built in mtcars dataframe)
+  a.) Change a column from a factor to a number
+  b.) Change a column from a number to a factor
+
+7.) Find a .csv file online and read it into R! -- You can find lots of data here: https://github.com/rfordatascience/tidytuesday
+
+8.) Write the dataframe to a file and read it back into R!
+
+
+
+
+
+
+
