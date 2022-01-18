@@ -131,7 +131,7 @@ Tidyverse is great because all of the packages like the same kinds of data. That
 
 This section contains some worked examples of Tidyverse best practices for data manipulation. If you just want a quick refresher, you can take a look at the **cheat sheet** below!
 
-![](/home/jbaumann/BMSS/images/tidyverse_cheat_sheet.png)
+![](/home/jbaumann/BIOL234_Biostats_MHC/images/tidyverse_cheat_sheet.png)
 
 ***
 
