@@ -1,5 +1,5 @@
 ---
-title: 'BIOL 2319 Lab 1: Intro to RStudio, RMarkdown, and GitHub'
+title: 'BIOL 234 Lab 1: Intro to RStudio, RMarkdown, and GitHub'
 author: "Justin Baumann"
 date: "`r format(Sys.time(), '%d %B, %Y')`"
 output:
@@ -39,7 +39,7 @@ The best way to learn is to GOOGLE IT and try stuff </br>
 
 ***
 
-# **Step 1: RStudio Layout** {.tabset .tabset-pills}
+# **1.) RStudio Layout** {.tabset .tabset-pills}
 RStudio looks like the image below. The screen can be divided into 4 sections. Use the tabs above to navigate to info about each section.
 
 ## **Top Left**: Script 
@@ -58,10 +58,10 @@ This is the second most important quadrant (behind top left) and we can change t
 You can use the top bar in RStudio much like in any other program. I'll let you explore that on your own. Notably, in the top right corner of the top bar you will see an 'R' in a blue box. This is where you can set the project you are working form. Using projects is great because it allows you an easy way to compartmentalize your code, data, figures, and working directory for a single project all in one place! We will get to this shortly. 
 
 # {-}
-![](/home/jbaumann/BMSS/images/RStudio_layout.png)
+![](/home/jbaumann/BIOL234_Biostats_MHC/images/RStudio_layout.png)
 
 *** 
-# **Step 2: The Working Directory** - What is it, how to check it, and how to set it! {.tabset .tabset-pills}
+# **2.) The Working Directory** - What is it, how to check it, and how to set it! {.tabset .tabset-pills}
 
 ## **What is a working directory?** 
 A working directory is simply the folder we are working from. R needs to be pointed to the right place on your computer to find/ save your files otherwise it will not know where to look. Defining a working directory is standard in just about all programming languages, so understanding this concept is a transferable skill! 
@@ -73,7 +73,7 @@ getwd()
 ```
 
 2.) We can also use the Bottom Right "Files" tab
-![](/home/jbaumann/BMSS/images/files.png)
+![](/home/jbaumann/BIOL234_Biostats_MHC/images/files.png)
 Here our working directory (and it's file path) can be located in the black circle. We can manually change the working directory by using the '...' in the brown circle to find any folder on our computer (or attached cloud folders), navigating to it, and then using the 'More' Cog in the green circle to "Set as working directory"
 
 3.) An alternative approach to finding the working directory in the "Files" tab. Using the "More" cog, we can select "Go to working directory"
@@ -86,30 +86,30 @@ Here our working directory (and it's file path) can be located in the black circ
   
 2.) Set working directory with code: We use the 'setwd()' function for this
 ```{r}
-setwd('~/BMSS/code')
+setwd('/home/jbaumann/BIOL234_Biostats_MHC/code')
 ```
 
-Note that I am using rstudio.bowdoin.edu, a cloud version of RStudio. As such, my setwd() looks weird! '~' just tells R I want to look in the same parent directory I am currently working in. Your version of this might be setwd("C://username/bmss/code") or similar. You use a "/" between each folder. As always, ask questions if you have them! The manual setting using "Files" is usually easier for most people. 
+Note that I am using rstudio.mtholyoke.edu, a cloud version of RStudio. As such, my setwd() looks weird! '~' just tells R I want to look in the same parent directory I am currently working in. Your version of this might be setwd("C://username/biol234/code") or similar. You use a "/" between each folder. As always, ask questions if you have them! The manual setting using "Files" is usually easier for most people. 
 
 # {-}
 ***
-# **Step 3: RStudio Projects!** {.tabset .tabset-pills}
-![](/home/jbaumann/BMSS/images/projects.png)
+# **3.) RStudio Projects!** {.tabset .tabset-pills}
+![](/home/jbaumann/BIOL234_Biostats_MHC/images/projects.png)
 
 RStudio Projects are a great way to compartmentalize your coding work! You can store your code, outputs, input files, figures, etc all in one directory (with subdirectories). When you load your R Project, R will automatically load the last scripts you were working with on that project as well as the dataframes and items you have read in (your environment will be ready to go!). It will also navigate to the correct working directory automatically :)
 This will make your life easier! 
 
 *To make an RStudio Project* </br>
-1.) Create a folder on your computer (or cloud storage) that will serve as the MAIN directory for your project. For example, maybe you want a "BMSS" folder or something. Within that folder I recommend you make subdirectories for all of your R related inputs and outputs. Maybe something like I have here: 
+1.) Create a folder on your computer (or cloud storage) that will serve as the MAIN directory for your project. For example, maybe you want a "BIOSTATS" folder or something. Within that folder I recommend you make subdirectories for all of your R related inputs and outputs. Maybe something like I have here: 
 
-![](/home/jbaumann/BMSS/images/projectex.png)
+![](/home/jbaumann/BIOL234_Biostats_MHC/images/projectex.png)
 
 2.) Once you have a MAIN directory folder created (whether you've made subdirectories or not) you can create a project! Set your main folder as your working directory. Next, navigate to the TOP RIGHT of your screen and select the down arrow next to the Big "R" in a blue box. NOW, select "New Project" --> Existing directory --> Name the project and hit done! At this point you will see a .Rproj file appear in your MAIN directory. This means you did it right :)
 This .Rproj file is how you save all of your project info. It autosaves and when you select your project (Again, TOP RIGHT of your screen, select the down arrow next to the R in the blue box and then select your project name) it will load up your scripts, environment, and set your working directory as the MAIN folder. You can navigate VERY easily from here :)
 
 # {-}
 ***
-# **Step 4: Some R Basics** {.tabset .tabset-pills}
+# **4.) Some R Basics** {.tabset .tabset-pills}
 
 ## **Installing and Loading libraries**
 
@@ -119,7 +119,7 @@ If we do not have a package already installed (for example, if you have only jus
 ```{r eval=FALSE}
 install.packages(tidyverse)
 ```
-OR - We can use the 'Packages' tab in the bottom right quadrant to install packages. Simply navigate to 'Packages', select 'install packages' and enter the package names you need (separate each package by commas). **NOTE** for users for rstudio.bowdoin.edu -- You cannot install packages to the Bowdoin cloud instance of R. If we need something that isn't installed we will need to contact IT!
+OR - We can use the 'Packages' tab in the bottom right quadrant to install packages. Simply navigate to 'Packages', select 'install packages' and enter the package names you need (separate each package by commas). **NOTE** for users for rstudio.mtholyoke.edu -- You cannot install packages to the Mt Holyoke cloud instance of R. If we need something that isn't installed we will need to contact IT!
 
 In order for a *package to work*, we must first load it! We do this as with the code libary(packagename) 
 
@@ -229,7 +229,7 @@ head(penguins)
 # {-}
 ***
 
-# **Step 5: How to use RMarkdown** {.tabset .tabset-pills}
+# **5.) How to use RMarkdown** {.tabset .tabset-pills}
 
 ## **Intro**
 
@@ -295,7 +295,7 @@ Ok, you are ready to make a .rmd file!
 
 Unlike in a regular R script, using the '#' at the start of a line will not comment that line out. Instead, you can type as you would normally in an R Markdown (Rmd) document. We can format our text in the following ways: </br>
 
-![](/home/jbaumann/BMSS/images/RMD formatting.png)
+![](/home/jbaumann/BIOL234_Biostats_MHC/images/RMD formatting.png)
 
 
 1.) '**' on either end of a word, phrase, or line will make it bold! **this is in bold** = '**'this is in bold'**' without the quotes around the **
@@ -314,7 +314,7 @@ Once you have a code chunk inserted you will notice that the background of the c
 
 A code chunk can be modified so that the output from the code chunk changes. For example, maybe you want to show me a line of code you wrote but not the warning messages that it created. Or maybe you want to show a plot you made in a nice report and exclude the code. You can easily do either of those things using the information below!
 
-![](/home/jbaumann/BMSS/images/RMD_chunk_format.png)
+![](/home/jbaumann/BIOL234_Biostats_MHC/images/RMD_chunk_format.png)
 Below are a few examples: 
 
 **Show code but do not evaluate (run) it** --> We want eval=FALSE for this one. 
@@ -343,11 +343,11 @@ plot(pressure)
 
 ## **Knitting an RMD doc**
 
-![](/home/jbaumann/BMSS/images/RMD_render.png)
+![](/home/jbaumann/BIOL234_Biostats_MHC/images/RMD_render.png)
 #{-}
 
 ***
-# **Step 6: Formatting your code** {.tabset .tabset-pills}
+# **6.) Formatting your code** {.tabset .tabset-pills}
 Here are a few tips for formatting your Rscripts and Rmarkdown documents: 
 
 ## **Make a header!**
@@ -395,7 +395,77 @@ This one is huge when you are just learning R for the first time. If you learn h
 If you have code that you've written to attempt to solve a problem and it does not work you should either delete it or comment it out! Otherwise you will try to run it in the future and it will continue to not work. I like to leave failed code in my code as a comment so I know not to try that same thing again. Maybe you'd rather delete it to keep clutter down. Either is fine. If you want to comment out a large block of code (many lines) at once you can select it all with your mouse and then use crtl+shift+c to comment it all out at the same time. It's amazing. Try it!
 ***
 
-# **Step 7: Applying what we've learned**
+# **7.) Using GitHub for version control** {.tabset .tabset-pills}
+
+In this course we will be practising using GitHub. GitHub is a code repository website that uses a system called Git to help us do the following: 
+    -Store versions of our files and revert back to old versions if needed
+    -Collaborate with others (multiple people can edit/change files at once)
+    -Share your work with the world and allow others to test/reproduce your results using your code! This is an essential part of open science!
+
+## The GitHub Repository
+
+Your code is kept in a GitHub Repository (or 'repo'). This is basically just a folder on a cloud server. Your code is also kept on the computer (or rstudio.mtholyoke.edu server) that you are working from. If other people are also working on the files in your repo, they may have their own local copies of it as well. In this tutorial, we will learn how tyo integrate github with Rstudio to make version control and backing up our files and easy part of our coding pipeline!
+
+## Create or login to a GitHub account and set it up on RStudio (do once only)
+We will use the rstudio.mtholyoke.edu server to do all of this. You can use your personal computer / Rstudio if you prefer. 
+
+**We only need to do this process one time!** 
+
+1.) Create or login to your github account at [GitHub](https://github.com)
+2.) Configure github on rstudio.mtholyoke.edu
+  a.) Go to [https://rstudio.mtholyoke.edu](https://rstudio.mtholyoke.edu) and sign in 
+  b.) select 'shell' from the tools menu 
+  c.) in the 'shell' window at the bottom left enter the following commands (replace XX with your github username or email)
+
+git config --global user.name 'XX'
+git config --global user.email 'XX'
+git config --global --list
+
+  d.) close the shell. GitHub is now configured 
+  
+##  Generate SSH key (do once only)
+
+1.) on Rstudio, select tools; global options; Git/SVN
+2.) Click "Create RSA Key" and follow the prompts
+3.) DO NOT use a passphrase here! 
+4.) Click 'Create'
+
+## Add a public key to GitHub (do once only)
+1.) In RStudio, click on the 'View public key' (Tools; global options; Git/SVN)
+2.) Copy the key
+3.) Open github.com and log in
+4.) Click on the icon on the top right that is your profile picture and select 'Settings')
+5.) Click on 'SSH and GPG Keys'
+6.) Click on 'New SSH key'
+7.) Title this 'MHC R server' (unless you are using your local RStudio install)
+8.) Paste in the public key
+9.) Github may prompt you for your password. Enter it if it does this. 
+10.) Close the window
+
+## Clone a repository from GitHub (you can/ will do this everytime you start a new lab or assignment)
+
+Now that GitHub is setup for us, we can use it! Let's grab a repository from GitHub and clone it to our own individual server instances
+
+1.) Open [this repo:](https://github.com/jbaumann3/BIOL234_Biostats_MHC)
+2.) Click on the Green "Code" button and select SSH from the pop up
+3.) Copy the code 
+4.) Back in RStudio, click on File; New Project; Version Control; Git. Then paste the URL 
+5.) Press tab to fill in the project directory name or write a new name here
+7.) Change the "Create project a subdirectory of" value from "~" or whatever it is, to whatever you would like it to be. I suggest placing this project within a directory (folder) titles "BIOL234" or similar. 
+8.) You may get some sectuiry warnings. Just press OK.
+9. WE DID IT! Now, let's edit a file and learn to push/pull files. 
+
+## Create a new Rscript for your homework/lab for today and push it to your github repository 
+
+
+
+
+
+
+
+
+
+# **8.) Applying what we've learned**
 
 1.) Make a folder for your R tutorial and practice. Name it whatever you would like. 
   a.) Add sub-folders as needed (code, data, figures, etc)
