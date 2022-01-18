@@ -1,5 +1,5 @@
 ---
-title: 'BMSS R Tutorial 1: Intro to R Studio and R Markdown'
+title: 'BIOL 2319 Lab 1: Intro to RStudio, RMarkdown, and GitHub'
 author: "Justin Baumann"
 date: "`r format(Sys.time(), '%d %B, %Y')`"
 output:
@@ -22,6 +22,7 @@ IN THIS TUTORIAL YOU WILL LEARN: </br>
 3.) How to view data  </br>
 4.) How to read and write data files </br>
 5.) How to use RMarkdown to make a document 
+6.) How to use GitHub for version control
 
 # Additional Tutorials and Resources
 [Datacamp Tidyverse tutorial](https://www.datacamp.com/community/tutorials/tidyverse-tutorial-r)
