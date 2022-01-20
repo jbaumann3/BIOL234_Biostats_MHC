@@ -15,7 +15,7 @@ editor_options:
   chunk_output_type: console
 ---
 # **LEARNING OBJECTIVES**
-IN THIS TUTORIAL YOU WILL LEARN: </br>
+IN THIS LAB YOU WILL LEARN: </br>
 1.) How to deal with dates and time in R (using lubridate) </br>
 2.) How to subset, filter, and trim data</br>
 3.) How to use the 'pipe' (%>%) in dplyr and Tidyverse </br>
@@ -446,21 +446,23 @@ ggplot(sumpens, aes(x=island, y=meanbill))+
 
 ***
 
-# **5.) Applying what we've learned**
+# **5.) Applying what we've learned - Data Wrangling Challenge**
+
+Please create an RMarkdown document to complete this work and don't forget to push your work to github!
 
 1.) Read in https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2021/2021-05-04/water.csv 
 check the format of the date column and change it using lubridate so it is correct 
-
+</br>
 2.) Pull a dataset from online ([tidytuesday](https://github.com/rfordatascience/tidytuesday/tree/master/data)) or use a preloaded dataset in R 
-
-  a.) Select columns to keep / remove
-  b.) Filter your data to include only some levels of a factor (for example, include only 1 of 3 species or something)
-  c.) Add a new column! You can use column math for this if you'd like (multiple stuff together, change the unit, etc)
-  d.) Try to pivot your data from long to wide (or wide to long) and then return it back to its orignal format!
-  
-3.) Use a pipe group and calculate means!
-
-
+</br>
+2a.) Look at your data and generate a hypothesis about it - we will discuss hypothesis testing later, so don't stress about the details here. Just pick something you want to explore (like, green birds have larger beaks, or something)
+2b.) Select columns to keep / remove </br>
+2c.) Filter your data to include only some levels of a factor (for example, include only 1 of 3 species or something) </br>
+2d.) Add a new column! You can use column math for this if you'd like (multiply stuff together, change the unit, etc) </br>
+2e.) Try to pivot your data from long to wide (or wide to long) and then return it back to its original format! </br>
+</br>
+3.) Use a pipe to group and calculate means! </br>
+4.) Knit your work into a html or pdf, save the output file and the .rmd file and submit them both on Moodle!
 
 
 
