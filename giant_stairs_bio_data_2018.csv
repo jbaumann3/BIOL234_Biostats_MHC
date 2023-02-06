@@ -1,0 +1,783 @@
+tidepool,quadrat,algae_or_animal,genus_or_species,measurement_type,measurement
+1,1,animal,Mytilus,% cover,0
+1,1,animal,Semibalanus,% cover,0
+1,1,animal,Crepidula,abundance (per m2),0
+1,1,animal,Llittorea,abundance (per m2),0
+1,1,animal,Crab,abundance (per m2),0
+1,1,animal,Shrimp,abundance (per m2),0
+1,1,animal,Anemone,abundance (per m2),0
+1,1,animal,Tectura,abundance (per m2),0
+1,1,animal,Lobtusata,abundance (per m2),0
+1,1,animal,Tealia_felina,abundance (per m2),0
+1,2,animal,Mytilus,% cover,
+1,2,animal,Semibalanus,% cover,
+1,2,animal,Crepidula,abundance (per m2),0
+1,2,animal,Llittorea,abundance (per m2),0
+1,2,animal,Crab,abundance (per m2),0
+1,2,animal,Shrimp,abundance (per m2),0
+1,2,animal,Anemone,abundance (per m2),0
+1,2,animal,Tectura,abundance (per m2),0
+1,2,animal,Lobtusata,abundance (per m2),0
+1,2,animal,Tealia_felina,abundance (per m2),0
+1,3,animal,Mytilus,% cover,
+1,3,animal,Semibalanus,% cover,
+1,3,animal,Crepidula,abundance (per m2),0
+1,3,animal,Llittorea,abundance (per m2),0
+1,3,animal,Crab,abundance (per m2),0
+1,3,animal,Shrimp,abundance (per m2),0
+1,3,animal,Anemone,abundance (per m2),0
+1,3,animal,Tectura,abundance (per m2),0
+1,3,animal,Lobtusata,abundance (per m2),0
+1,3,animal,Tealia_felina,abundance (per m2),0
+1,4,animal,Mytilus,% cover,
+1,4,animal,Semibalanus,% cover,
+1,4,animal,Crepidula,abundance (per m2),0
+1,4,animal,Llittorea,abundance (per m2),0
+1,4,animal,Crab,abundance (per m2),0
+1,4,animal,Shrimp,abundance (per m2),0
+1,4,animal,Anemone,abundance (per m2),0
+1,4,animal,Tectura,abundance (per m2),0
+1,4,animal,Lobtusata,abundance (per m2),0
+1,4,animal,Tealia_felina,abundance (per m2),0
+1,5,animal,Mytilus,% cover,
+1,5,animal,Semibalanus,% cover,
+1,5,animal,Crepidula,abundance (per m2),0
+1,5,animal,Llittorea,abundance (per m2),0
+1,5,animal,Crab,abundance (per m2),0
+1,5,animal,Shrimp,abundance (per m2),0
+1,5,animal,Anemone,abundance (per m2),0
+1,5,animal,Tectura,abundance (per m2),0
+1,5,animal,Lobtusata,abundance (per m2),0
+1,5,animal,Tealia_felina,abundance (per m2),0
+1,6,animal,Mytilus,% cover,
+1,6,animal,Semibalanus,% cover,
+1,6,animal,Crepidula,abundance (per m2),0
+1,6,animal,Llittorea,abundance (per m2),0
+1,6,animal,Crab,abundance (per m2),0
+1,6,animal,Shrimp,abundance (per m2),0
+1,6,animal,Anemone,abundance (per m2),0
+1,6,animal,Tectura,abundance (per m2),0
+1,6,animal,Lobtusata,abundance (per m2),0
+1,6,animal,Tealia_felina,abundance (per m2),0
+1,7,animal,Mytilus,% cover,
+1,7,animal,Semibalanus,% cover,
+1,7,animal,Crepidula,abundance (per m2),0
+1,7,animal,Llittorea,abundance (per m2),0
+1,7,animal,Crab,abundance (per m2),0
+1,7,animal,Shrimp,abundance (per m2),0
+1,7,animal,Anemone,abundance (per m2),0
+1,7,animal,Tectura,abundance (per m2),0
+1,7,animal,Lobtusata,abundance (per m2),0
+1,7,animal,Tealia_felina,abundance (per m2),0
+1,8,animal,Mytilus,% cover,
+1,8,animal,Semibalanus,% cover,
+1,8,animal,Crepidula,abundance (per m2),0
+1,8,animal,Llittorea,abundance (per m2),0
+1,8,animal,Crab,abundance (per m2),0
+1,8,animal,Shrimp,abundance (per m2),0
+1,8,animal,Anemone,abundance (per m2),0
+1,8,animal,Tectura,abundance (per m2),0
+1,8,animal,Lobtusata,abundance (per m2),0
+1,8,animal,Tealia_felina,abundance (per m2),0
+2,1,animal,Mytilus,% cover,
+2,1,animal,Semibalanus,% cover,
+2,1,animal,Crepidula,abundance (per m2),0
+2,1,animal,Llittorea,abundance (per m2),0
+2,1,animal,Crab,abundance (per m2),0
+2,1,animal,Shrimp,abundance (per m2),0
+2,1,animal,Anemone,abundance (per m2),0
+2,1,animal,Tectura,abundance (per m2),0
+2,1,animal,Lobtusata,abundance (per m2),0
+2,1,animal,Tealia_felina,abundance (per m2),0
+2,2,animal,Mytilus,% cover,
+2,2,animal,Semibalanus,% cover,
+2,2,animal,Crepidula,abundance (per m2),0
+2,2,animal,Llittorea,abundance (per m2),0
+2,2,animal,Crab,abundance (per m2),0
+2,2,animal,Shrimp,abundance (per m2),0
+2,2,animal,Anemone,abundance (per m2),0
+2,2,animal,Tectura,abundance (per m2),0
+2,2,animal,Lobtusata,abundance (per m2),0
+2,2,animal,Tealia_felina,abundance (per m2),0
+2,3,animal,Mytilus,% cover,
+2,3,animal,Semibalanus,% cover,
+2,3,animal,Crepidula,abundance (per m2),0
+2,3,animal,Llittorea,abundance (per m2),0
+2,3,animal,Crab,abundance (per m2),0
+2,3,animal,Shrimp,abundance (per m2),0
+2,3,animal,Anemone,abundance (per m2),0
+2,3,animal,Tectura,abundance (per m2),0
+2,3,animal,Lobtusata,abundance (per m2),0
+2,3,animal,Tealia_felina,abundance (per m2),0
+2,4,animal,Mytilus,% cover,
+2,4,animal,Semibalanus,% cover,
+2,4,animal,Crepidula,abundance (per m2),0
+2,4,animal,Llittorea,abundance (per m2),48
+2,4,animal,Crab,abundance (per m2),0
+2,4,animal,Shrimp,abundance (per m2),0
+2,4,animal,Anemone,abundance (per m2),0
+2,4,animal,Tectura,abundance (per m2),0
+2,4,animal,Lobtusata,abundance (per m2),0
+2,4,animal,Tealia_felina,abundance (per m2),0
+2,5,animal,Mytilus,% cover,
+2,5,animal,Semibalanus,% cover,
+2,5,animal,Crepidula,abundance (per m2),0
+2,5,animal,Llittorea,abundance (per m2),0
+2,5,animal,Crab,abundance (per m2),0
+2,5,animal,Shrimp,abundance (per m2),0
+2,5,animal,Anemone,abundance (per m2),0
+2,5,animal,Tectura,abundance (per m2),0
+2,5,animal,Lobtusata,abundance (per m2),0
+2,5,animal,Tealia_felina,abundance (per m2),0
+2,6,animal,Mytilus,% cover,
+2,6,animal,Semibalanus,% cover,
+2,6,animal,Crepidula,abundance (per m2),0
+2,6,animal,Llittorea,abundance (per m2),0
+2,6,animal,Crab,abundance (per m2),0
+2,6,animal,Shrimp,abundance (per m2),0
+2,6,animal,Anemone,abundance (per m2),0
+2,6,animal,Tectura,abundance (per m2),0
+2,6,animal,Lobtusata,abundance (per m2),0
+2,6,animal,Tealia_felina,abundance (per m2),0
+2,7,animal,Mytilus,% cover,
+2,7,animal,Semibalanus,% cover,
+2,7,animal,Crepidula,abundance (per m2),0
+2,7,animal,Llittorea,abundance (per m2),0
+2,7,animal,Crab,abundance (per m2),0
+2,7,animal,Shrimp,abundance (per m2),0
+2,7,animal,Anemone,abundance (per m2),0
+2,7,animal,Tectura,abundance (per m2),0
+2,7,animal,Lobtusata,abundance (per m2),0
+2,7,animal,Tealia_felina,abundance (per m2),0
+2,8,animal,Mytilus,% cover,
+2,8,animal,Semibalanus,% cover,
+2,8,animal,Crepidula,abundance (per m2),0
+2,8,animal,Llittorea,abundance (per m2),0
+2,8,animal,Crab,abundance (per m2),0
+2,8,animal,Shrimp,abundance (per m2),0
+2,8,animal,Anemone,abundance (per m2),0
+2,8,animal,Tectura,abundance (per m2),0
+2,8,animal,Lobtusata,abundance (per m2),0
+2,8,animal,Tealia_felina,abundance (per m2),0
+3,1,animal,Mytilus,% cover,
+3,1,animal,Semibalanus,% cover,
+3,1,animal,Crepidula,abundance (per m2),32
+3,1,animal,Llittorea,abundance (per m2),80
+3,1,animal,Crab,abundance (per m2),0
+3,1,animal,Shrimp,abundance (per m2),0
+3,1,animal,Anemone,abundance (per m2),48
+3,1,animal,Tectura,abundance (per m2),0
+3,1,animal,Lobtusata,abundance (per m2),0
+3,1,animal,Tealia_felina,abundance (per m2),0
+3,1,animal,Mytilus,% cover,
+3,2,animal,Semibalanus,% cover,
+3,2,animal,Crepidula,abundance (per m2),0
+3,2,animal,Llittorea,abundance (per m2),0
+3,2,animal,Crab,abundance (per m2),0
+3,2,animal,Shrimp,abundance (per m2),0
+3,2,animal,Anemone,abundance (per m2),0
+3,2,animal,Tectura,abundance (per m2),0
+3,2,animal,Lobtusata,abundance (per m2),0
+3,2,animal,Tealia_felina,abundance (per m2),0
+3,3,animal,Mytilus,% cover,
+3,3,animal,Semibalanus,% cover,
+3,3,animal,Crepidula,abundance (per m2),32
+3,3,animal,Llittorea,abundance (per m2),48
+3,3,animal,Crab,abundance (per m2),0
+3,3,animal,Shrimp,abundance (per m2),0
+3,3,animal,Anemone,abundance (per m2),0
+3,3,animal,Tectura,abundance (per m2),0
+3,3,animal,Lobtusata,abundance (per m2),0
+3,3,animal,Tealia_felina,abundance (per m2),0
+3,4,animal,Mytilus,% cover,0
+3,4,animal,Semibalanus,% cover,96
+3,4,animal,Crepidula,abundance (per m2),0
+3,4,animal,Llittorea,abundance (per m2),96
+3,4,animal,Crab,abundance (per m2),0
+3,4,animal,Shrimp,abundance (per m2),0
+3,4,animal,Anemone,abundance (per m2),0
+3,4,animal,Tectura,abundance (per m2),0
+3,4,animal,Lobtusata,abundance (per m2),0
+3,4,animal,Tealia_felina,abundance (per m2),0
+3,5,animal,Mytilus,% cover,0
+3,5,animal,Semibalanus,% cover,
+3,5,animal,Crepidula,abundance (per m2),0
+3,5,animal,Llittorea,abundance (per m2),16
+3,5,animal,Crab,abundance (per m2),0
+3,5,animal,Shrimp,abundance (per m2),0
+3,5,animal,Anemone,abundance (per m2),0
+3,5,animal,Tectura,abundance (per m2),0
+3,5,animal,Lobtusata,abundance (per m2),16
+3,5,animal,Tealia_felina,abundance (per m2),0
+3,6,animal,Mytilus,% cover,0
+3,6,animal,Semibalanus,% cover,112
+3,6,animal,Crepidula,abundance (per m2),0
+3,6,animal,Llittorea,abundance (per m2),112
+3,6,animal,Crab,abundance (per m2),0
+3,6,animal,Shrimp,abundance (per m2),0
+3,6,animal,Anemone,abundance (per m2),0
+3,6,animal,Tectura,abundance (per m2),0
+3,6,animal,Lobtusata,abundance (per m2),0
+3,6,animal,Tealia_felina,abundance (per m2),0
+3,7,animal,Mytilus,% cover,
+3,7,animal,Semibalanus,% cover,
+3,7,animal,Crepidula,abundance (per m2),0
+3,7,animal,Llittorea,abundance (per m2),80
+3,7,animal,Crab,abundance (per m2),0
+3,7,animal,Shrimp,abundance (per m2),0
+3,7,animal,Anemone,abundance (per m2),0
+3,7,animal,Tectura,abundance (per m2),0
+3,7,animal,Lobtusata,abundance (per m2),0
+3,7,animal,Tealia_felina,abundance (per m2),0
+3,8,animal,Mytilus,% cover,
+3,8,animal,Semibalanus,% cover,
+3,8,animal,Crepidula,abundance (per m2),0
+3,8,animal,Llittorea,abundance (per m2),0
+3,8,animal,Crab,abundance (per m2),0
+3,8,animal,Shrimp,abundance (per m2),0
+3,8,animal,Anemone,abundance (per m2),0
+3,8,animal,Tectura,abundance (per m2),0
+3,8,animal,Lobtusata,abundance (per m2),0
+3,8,animal,Tealia_felina,abundance (per m2),0
+3,9,animal,Mytilus,% cover,
+3,9,animal,Semibalanus,% cover,
+3,9,animal,Crepidula,abundance (per m2),0
+3,9,animal,Llittorea,abundance (per m2),80
+3,9,animal,Crab,abundance (per m2),0
+3,9,animal,Shrimp,abundance (per m2),0
+3,9,animal,Anemone,abundance (per m2),0
+3,9,animal,Tectura,abundance (per m2),0
+3,9,animal,Lobtusata,abundance (per m2),0
+3,9,animal,Tealia_felina,abundance (per m2),0
+4,1,animal,Mytilus,% cover,0
+4,1,animal,Semibalanus,% cover,160
+4,1,animal,Crepidula,abundance (per m2),0
+4,1,animal,Llittorea,abundance (per m2),160
+4,1,animal,Crab,abundance (per m2),0
+4,1,animal,Shrimp,abundance (per m2),0
+4,1,animal,Anemone,abundance (per m2),0
+4,1,animal,Tectura,abundance (per m2),0
+4,1,animal,Lobtusata,abundance (per m2),0
+4,1,animal,Tealia_felina,abundance (per m2),0
+4,2,animal,Mytilus,% cover,
+4,2,animal,Semibalanus,% cover,
+4,2,animal,Crepidula,abundance (per m2),0
+4,2,animal,Llittorea,abundance (per m2),192
+4,2,animal,Crab,abundance (per m2),0
+4,2,animal,Shrimp,abundance (per m2),0
+4,2,animal,Anemone,abundance (per m2),0
+4,2,animal,Tectura,abundance (per m2),0
+4,2,animal,Lobtusata,abundance (per m2),0
+4,2,animal,Tealia_felina,abundance (per m2),0
+4,3,animal,Mytilus,% cover,
+4,3,animal,Semibalanus,% cover,
+4,3,animal,Crepidula,abundance (per m2),0
+4,3,animal,Llittorea,abundance (per m2),160
+4,3,animal,Crab,abundance (per m2),0
+4,3,animal,Shrimp,abundance (per m2),0
+4,3,animal,Anemone,abundance (per m2),0
+4,3,animal,Tectura,abundance (per m2),0
+4,3,animal,Lobtusata,abundance (per m2),0
+4,3,animal,Tealia_felina,abundance (per m2),0
+4,4,animal,Mytilus,% cover,
+4,4,animal,Semibalanus,% cover,
+4,4,animal,Crepidula,abundance (per m2),0
+4,4,animal,Llittorea,abundance (per m2),368
+4,4,animal,Crab,abundance (per m2),0
+4,4,animal,Shrimp,abundance (per m2),0
+4,4,animal,Anemone,abundance (per m2),0
+4,4,animal,Tectura,abundance (per m2),0
+4,4,animal,Lobtusata,abundance (per m2),0
+4,4,animal,Tealia_felina,abundance (per m2),0
+4,5,animal,Mytilus,% cover,
+4,5,animal,Semibalanus,% cover,
+4,5,animal,Crepidula,abundance (per m2),0
+4,5,animal,Llittorea,abundance (per m2),16
+4,5,animal,Crab,abundance (per m2),0
+4,5,animal,Shrimp,abundance (per m2),0
+4,5,animal,Anemone,abundance (per m2),0
+4,5,animal,Tectura,abundance (per m2),0
+4,5,animal,Lobtusata,abundance (per m2),0
+4,5,animal,Tealia_felina,abundance (per m2),0
+4,6,animal,Mytilus,% cover,
+4,6,animal,Semibalanus,% cover,
+4,6,animal,Crepidula,abundance (per m2),0
+4,6,animal,Llittorea,abundance (per m2),192
+4,6,animal,Crab,abundance (per m2),0
+4,6,animal,Shrimp,abundance (per m2),0
+4,6,animal,Anemone,abundance (per m2),0
+4,6,animal,Tectura,abundance (per m2),0
+4,6,animal,Lobtusata,abundance (per m2),0
+4,6,animal,Tealia_felina,abundance (per m2),0
+4,7,animal,Mytilus,% cover,
+4,7,animal,Semibalanus,% cover,
+4,7,animal,Crepidula,abundance (per m2),0
+4,7,animal,Llittorea,abundance (per m2),432
+4,7,animal,Crab,abundance (per m2),0
+4,7,animal,Shrimp,abundance (per m2),0
+4,7,animal,Anemone,abundance (per m2),0
+4,7,animal,Tectura,abundance (per m2),0
+4,7,animal,Lobtusata,abundance (per m2),0
+4,7,animal,Tealia_felina,abundance (per m2),0
+4,8,animal,Mytilus,% cover,
+4,8,animal,Semibalanus,% cover,
+4,8,animal,Crepidula,abundance (per m2),32
+4,8,animal,Llittorea,abundance (per m2),192
+4,8,animal,Crab,abundance (per m2),0
+4,8,animal,Shrimp,abundance (per m2),0
+4,8,animal,Anemone,abundance (per m2),0
+4,8,animal,Tectura,abundance (per m2),0
+4,8,animal,Lobtusata,abundance (per m2),0
+4,8,animal,Tealia_felina,abundance (per m2),0
+4,9,animal,Mytilus,% cover,
+4,9,animal,Semibalanus,% cover,
+4,9,animal,Crepidula,abundance (per m2),0
+4,9,animal,Llittorea,abundance (per m2),48
+4,9,animal,Crab,abundance (per m2),0
+4,9,animal,Shrimp,abundance (per m2),0
+4,9,animal,Anemone,abundance (per m2),0
+4,9,animal,Tectura,abundance (per m2),0
+4,9,animal,Lobtusata,abundance (per m2),0
+4,9,animal,Tealia_felina,abundance (per m2),0
+1,1,algae,Chondrus,% cover,0
+1,1,algae,Unk_yellow_slime,% cover,0
+1,1,algae,Mastocarpus,% cover,0
+1,1,algae,Petrocelis,% cover,0
+1,1,algae,Corollina,% cover,0
+1,1,algae,Lithothamnium,% cover,0
+1,1,algae,F_distichus,% cover,19.89
+1,1,algae,Codium,% cover,0
+1,1,algae,Ulva_intestinalis,% cover,40
+1,1,algae,Spongomorpha,% cover,0
+1,1,algae,brown_spongy_carpet,% cover,0
+1,1,algae,Ascophyllum,% cover,0
+1,1,rock,bare_rock,% cover,60
+1,2,algae,Chondrus,% cover,0
+1,2,algae,Unk_yellow_slime,% cover,0
+1,2,algae,Mastocarpus,% cover,0
+1,2,algae,Petrocelis,% cover,0
+1,2,algae,Corollina,% cover,0
+1,2,algae,Lithothamnium,% cover,0
+1,2,algae,F_distichus,% cover,0
+1,2,algae,Codium,% cover,0
+1,2,algae,Ulva_intestinalis,% cover,60
+1,2,algae,Spongomorpha,% cover,0
+1,2,algae,brown_spongy_carpet,% cover,0
+1,2,algae,Ascophyllum,% cover,0
+1,2,rock,bare_rock,% cover,40
+1,3,algae,Chondrus,% cover,0
+1,3,algae,Unk_yellow_slime,% cover,0
+1,3,algae,Mastocarpus,% cover,0
+1,3,algae,Petrocelis,% cover,0
+1,3,algae,Corollina,% cover,0
+1,3,algae,Lithothamnium,% cover,0
+1,3,algae,F_distichus,% cover,0
+1,3,algae,Codium,% cover,0
+1,3,algae,Ulva_intestinalis,% cover,90
+1,3,algae,Spongomorpha,% cover,0
+1,3,algae,brown_spongy_carpet,% cover,0
+1,3,algae,Ascophyllum,% cover,0
+1,3,rock,bare_rock,% cover,10
+1,4,algae,Chondrus,% cover,0
+1,4,algae,Unk_yellow_slime,% cover,0
+1,4,algae,Mastocarpus,% cover,0
+1,4,algae,Petrocelis,% cover,0
+1,4,algae,Corollina,% cover,0
+1,4,algae,Lithothamnium,% cover,0
+1,4,algae,F_distichus,% cover,0
+1,4,algae,Codium,% cover,0
+1,4,algae,Ulva_intestinalis,% cover,100
+1,4,algae,Spongomorpha,% cover,0
+1,4,algae,brown_spongy_carpet,% cover,0
+1,4,algae,Ascophyllum,% cover,0
+1,4,rock,bare_rock,% cover,0
+1,5,algae,Chondrus,% cover,0
+1,5,algae,Unk_yellow_slime,% cover,0
+1,5,algae,Mastocarpus,% cover,0
+1,5,algae,Petrocelis,% cover,0
+1,5,algae,Corollina,% cover,0
+1,5,algae,Lithothamnium,% cover,0
+1,5,algae,F_distichus,% cover,0
+1,5,algae,Codium,% cover,0
+1,5,algae,Ulva_intestinalis,% cover,90
+1,5,algae,Spongomorpha,% cover,0
+1,5,algae,brown_spongy_carpet,% cover,0
+1,5,algae,Ascophyllum,% cover,0
+1,5,rock,bare_rock,% cover,10
+1,6,algae,Chondrus,% cover,0
+1,6,algae,Unk_yellow_slime,% cover,0
+1,6,algae,Mastocarpus,% cover,0
+1,6,algae,Petrocelis,% cover,0
+1,6,algae,Corollina,% cover,0
+1,6,algae,Lithothamnium,% cover,0
+1,6,algae,F_distichus,% cover,0
+1,6,algae,Codium,% cover,0
+1,6,algae,Ulva_intestinalis,% cover,85
+1,6,algae,Spongomorpha,% cover,0
+1,6,algae,brown_spongy_carpet,% cover,0
+1,6,algae,Ascophyllum,% cover,0
+1,6,rock,bare_rock,% cover,10
+1,7,algae,Chondrus,% cover,0
+1,7,algae,Unk_yellow_slime,% cover,0
+1,7,algae,Mastocarpus,% cover,0
+1,7,algae,Petrocelis,% cover,0
+1,7,algae,Corollina,% cover,0
+1,7,algae,Lithothamnium,% cover,0
+1,7,algae,F_distichus,% cover,0
+1,7,algae,Codium,% cover,0
+1,7,algae,Ulva_intestinalis,% cover,60
+1,7,algae,Spongomorpha,% cover,0
+1,7,algae,brown_spongy_carpet,% cover,20
+1,7,algae,Ascophyllum,% cover,0
+1,7,rock,bare_rock,% cover,20
+1,8,algae,Chondrus,% cover,0
+1,8,algae,Unk_yellow_slime,% cover,0
+1,8,algae,Mastocarpus,% cover,0
+1,8,algae,Petrocelis,% cover,0
+1,8,algae,Corollina,% cover,0
+1,8,algae,Lithothamnium,% cover,0
+1,8,algae,F_distichus,% cover,0
+1,8,algae,Codium,% cover,0
+1,8,algae,Ulva_intestinalis,% cover,10
+1,8,algae,Spongomorpha,% cover,0
+1,8,algae,brown_spongy_carpet,% cover,90
+1,8,algae,Ascophyllum,% cover,0
+1,8,rock,bare_rock,% cover,0
+2,1,algae,Chondrus,% cover,0
+2,1,algae,Unk_yellow_slime,% cover,0
+2,1,algae,Mastocarpus,% cover,0
+2,1,algae,Petrocelis,% cover,37
+2,1,algae,Corollina,% cover,0
+2,1,algae,Lithothamnium,% cover,0
+2,1,algae,F_distichus,% cover,0
+2,1,algae,Codium,% cover,0
+2,1,algae,Ulva_intestinalis,% cover,3
+2,1,algae,Spongomorpha,% cover,0
+2,1,algae,brown_spongy_carpet,% cover,60
+2,1,algae,Ascophyllum,% cover,0
+2,1,rock,bare_rock,% cover,0
+2,2,algae,Chondrus,% cover,0
+2,2,algae,Unk_yellow_slime,% cover,0
+2,2,algae,Mastocarpus,% cover,0
+2,2,algae,Petrocelis,% cover,5
+2,2,algae,Corollina,% cover,0
+2,2,algae,Lithothamnium,% cover,0
+2,2,algae,F_distichus,% cover,0
+2,2,algae,Codium,% cover,0
+2,2,algae,Ulva_intestinalis,% cover,0
+2,2,algae,Spongomorpha,% cover,0
+2,2,algae,brown_spongy_carpet,% cover,95
+2,2,algae,Ascophyllum,% cover,0
+2,2,rock,bare_rock,% cover,0
+2,3,algae,Chondrus,% cover,0
+2,3,algae,Unk_yellow_slime,% cover,0
+2,3,algae,Mastocarpus,% cover,0
+2,3,algae,Petrocelis,% cover,10
+2,3,algae,Corollina,% cover,0
+2,3,algae,Lithothamnium,% cover,0
+2,3,algae,F_distichus,% cover,0
+2,3,algae,Codium,% cover,0
+2,3,algae,Ulva_intestinalis,% cover,0
+2,3,algae,Spongomorpha,% cover,0
+2,3,algae,brown_spongy_carpet,% cover,90
+2,3,algae,Ascophyllum,% cover,0
+2,3,rock,bare_rock,% cover,0
+2,4,algae,Chondrus,% cover,2
+2,4,algae,Unk_yellow_slime,% cover,0
+2,4,algae,Mastocarpus,% cover,0
+2,4,algae,Petrocelis,% cover,15
+2,4,algae,Corollina,% cover,0
+2,4,algae,Lithothamnium,% cover,0
+2,4,algae,F_distichus,% cover,0
+2,4,algae,Codium,% cover,3
+2,4,algae,Ulva_intestinalis,% cover,0
+2,4,algae,Spongomorpha,% cover,20
+2,4,algae,brown_spongy_carpet,% cover,60
+2,4,algae,Ascophyllum,% cover,0
+2,4,rock,bare_rock,% cover,0
+2,5,algae,Chondrus,% cover,0
+2,5,algae,Unk_yellow_slime,% cover,0
+2,5,algae,Mastocarpus,% cover,0
+2,5,algae,Petrocelis,% cover,0
+2,5,algae,Corollina,% cover,0
+2,5,algae,Lithothamnium,% cover,0
+2,5,algae,F_distichus,% cover,0
+2,5,algae,Codium,% cover,0
+2,5,algae,Ulva_intestinalis,% cover,0
+2,5,algae,Spongomorpha,% cover,0
+2,5,algae,brown_spongy_carpet,% cover,65
+2,5,algae,Ascophyllum,% cover,0
+2,5,rock,bare_rock,% cover,35
+2,6,algae,Chondrus,% cover,0
+2,6,algae,Unk_yellow_slime,% cover,0
+2,6,algae,Mastocarpus,% cover,0
+2,6,algae,Petrocelis,% cover,0
+2,6,algae,Corollina,% cover,0
+2,6,algae,Lithothamnium,% cover,0
+2,6,algae,F_distichus,% cover,0
+2,6,algae,Codium,% cover,0
+2,6,algae,Ulva_intestinalis,% cover,5
+2,6,algae,Spongomorpha,% cover,0
+2,6,algae,brown_spongy_carpet,% cover,95
+2,6,algae,Ascophyllum,% cover,0
+2,6,rock,bare_rock,% cover,0
+2,7,algae,Chondrus,% cover,0
+2,7,algae,Unk_yellow_slime,% cover,0
+2,7,algae,Mastocarpus,% cover,0
+2,7,algae,Petrocelis,% cover,0
+2,7,algae,Corollina,% cover,0
+2,7,algae,Lithothamnium,% cover,0
+2,7,algae,F_distichus,% cover,0
+2,7,algae,Codium,% cover,0
+2,7,algae,Ulva_intestinalis,% cover,0
+2,7,algae,Spongomorpha,% cover,0
+2,7,algae,brown_spongy_carpet,% cover,60
+2,7,algae,Ascophyllum,% cover,0
+2,7,rock,bare_rock,% cover,40
+2,8,algae,Chondrus,% cover,0
+2,8,algae,Unk_yellow_slime,% cover,0
+2,8,algae,Mastocarpus,% cover,0
+2,8,algae,Petrocelis,% cover,0
+2,8,algae,Corollina,% cover,0
+2,8,algae,Lithothamnium,% cover,0
+2,8,algae,F_distichus,% cover,0
+2,8,algae,Codium,% cover,0
+2,8,algae,Ulva_intestinalis,% cover,0
+2,8,algae,Spongomorpha,% cover,0
+2,8,algae,brown_spongy_carpet,% cover,100
+2,8,algae,Ascophyllum,% cover,0
+2,8,rock,bare_rock,% cover,0
+3,1,algae,Chondrus,% cover,5
+3,1,algae,Unk_yellow_slime,% cover,0
+3,1,algae,Mastocarpus,% cover,0
+3,1,algae,Petrocelis,% cover,72
+3,1,algae,Corollina,% cover,0
+3,1,algae,Lithothamnium,% cover,20
+3,1,algae,F_distichus,% cover,0
+3,1,algae,Codium,% cover,0
+3,1,algae,Ulva_intestinalis,% cover,3
+3,1,algae,Spongomorpha,% cover,0
+3,1,algae,brown_spongy_carpet,% cover,0
+3,1,algae,Ascophyllum,% cover,0
+3,1,rock,bare_rock,% cover,0
+3,2,algae,Chondrus,% cover,25
+3,2,algae,Unk_yellow_slime,% cover,0
+3,2,algae,Mastocarpus,% cover,0
+3,2,algae,Petrocelis,% cover,15
+3,2,algae,Corollina,% cover,0
+3,2,algae,Lithothamnium,% cover,55
+3,2,algae,F_distichus,% cover,0
+3,2,algae,Codium,% cover,0
+3,2,algae,Ulva_intestinalis,% cover,0
+3,2,algae,Spongomorpha,% cover,0
+3,2,algae,brown_spongy_carpet,% cover,0
+3,2,algae,Ascophyllum,% cover,0
+3,2,rock,bare_rock,% cover,0
+3,3,algae,Chondrus,% cover,0
+3,3,algae,Unk_yellow_slime,% cover,0
+3,3,algae,Mastocarpus,% cover,15
+3,3,algae,Petrocelis,% cover,25
+3,3,algae,Corollina,% cover,0
+3,3,algae,Lithothamnium,% cover,30
+3,3,algae,F_distichus,% cover,0
+3,3,algae,Codium,% cover,0
+3,3,algae,Ulva_intestinalis,% cover,0
+3,3,algae,Spongomorpha,% cover,0
+3,3,algae,brown_spongy_carpet,% cover,0
+3,3,algae,Ascophyllum,% cover,0
+3,3,rock,bare_rock,% cover,25
+3,4,algae,Chondrus,% cover,30
+3,4,algae,Unk_yellow_slime,% cover,0
+3,4,algae,Mastocarpus,% cover,0
+3,4,algae,Petrocelis,% cover,0
+3,4,algae,Corollina,% cover,0
+3,4,algae,Lithothamnium,% cover,30
+3,4,algae,F_distichus,% cover,0
+3,4,algae,Codium,% cover,0
+3,4,algae,Ulva_intestinalis,% cover,0
+3,4,algae,Spongomorpha,% cover,35
+3,4,algae,brown_spongy_carpet,% cover,0
+3,4,algae,Ascophyllum,% cover,0
+3,4,rock,bare_rock,% cover,5
+3,5,algae,Chondrus,% cover,5
+3,5,algae,Unk_yellow_slime,% cover,0
+3,5,algae,Mastocarpus,% cover,0
+3,5,algae,Petrocelis,% cover,0
+3,5,algae,Corollina,% cover,0
+3,5,algae,Lithothamnium,% cover,0
+3,5,algae,F_distichus,% cover,0
+3,5,algae,Codium,% cover,0
+3,5,algae,Ulva_intestinalis,% cover,0
+3,5,algae,Spongomorpha,% cover,32
+3,5,algae,brown_spongy_carpet,% cover,0
+3,5,algae,Ascophyllum,% cover,0
+3,5,rock,bare_rock,% cover,38
+3,6,algae,Chondrus,% cover,15
+3,6,algae,Unk_yellow_slime,% cover,0
+3,6,algae,Mastocarpus,% cover,0
+3,6,algae,Petrocelis,% cover,0
+3,6,algae,Corollina,% cover,35
+3,6,algae,Lithothamnium,% cover,45
+3,6,algae,F_distichus,% cover,0
+3,6,algae,Codium,% cover,0
+3,6,algae,Ulva_intestinalis,% cover,0
+3,6,algae,Spongomorpha,% cover,5
+3,6,algae,brown_spongy_carpet,% cover,0
+3,6,algae,Ascophyllum,% cover,0
+3,6,rock,bare_rock,% cover,0
+3,7,algae,Chondrus,% cover,5
+3,7,algae,Unk_yellow_slime,% cover,0
+3,7,algae,Mastocarpus,% cover,0
+3,7,algae,Petrocelis,% cover,5
+3,7,algae,Corollina,% cover,0
+3,7,algae,Lithothamnium,% cover,60
+3,7,algae,F_distichus,% cover,0
+3,7,algae,Codium,% cover,0
+3,7,algae,Ulva_intestinalis,% cover,0
+3,7,algae,Spongomorpha,% cover,20
+3,7,algae,brown_spongy_carpet,% cover,0
+3,7,algae,Ascophyllum,% cover,5
+3,7,rock,bare_rock,% cover,0
+3,8,algae,Chondrus,% cover,10
+3,8,algae,Unk_yellow_slime,% cover,0
+3,8,algae,Mastocarpus,% cover,0
+3,8,algae,Petrocelis,% cover,0
+3,8,algae,Corollina,% cover,0
+3,8,algae,Lithothamnium,% cover,60
+3,8,algae,F_distichus,% cover,0
+3,8,algae,Codium,% cover,0
+3,8,algae,Ulva_intestinalis,% cover,0
+3,8,algae,Spongomorpha,% cover,0
+3,8,algae,brown_spongy_carpet,% cover,0
+3,8,algae,Ascophyllum,% cover,0
+3,8,rock,bare_rock,% cover,25
+3,9,algae,Chondrus,% cover,10
+3,9,algae,Unk_yellow_slime,% cover,0
+3,9,algae,Mastocarpus,% cover,0
+3,9,algae,Petrocelis,% cover,10
+3,9,algae,Corollina,% cover,0
+3,9,algae,Lithothamnium,% cover,60
+3,9,algae,F_distichus,% cover,0
+3,9,algae,Codium,% cover,0
+3,9,algae,Ulva_intestinalis,% cover,0
+3,9,algae,Spongomorpha,% cover,5
+3,9,algae,brown_spongy_carpet,% cover,0
+3,9,algae,Ascophyllum,% cover,0
+3,9,rock,bare_rock,% cover,10
+4,1,algae,Chondrus,% cover,8
+4,1,algae,Unk_yellow_slime,% cover,0
+4,1,algae,Mastocarpus,% cover,0
+4,1,algae,Petrocelis,% cover,10
+4,1,algae,Corollina,% cover,0
+4,1,algae,Lithothamnium,% cover,72
+4,1,algae,F_distichus,% cover,0
+4,1,algae,Codium,% cover,0
+4,1,algae,Ulva_intestinalis,% cover,0
+4,1,algae,Spongomorpha,% cover,0
+4,1,algae,brown_spongy_carpet,% cover,0
+4,1,algae,Ascophyllum,% cover,0
+4,1,rock,bare_rock,% cover,3
+4,2,algae,Chondrus,% cover,10
+4,2,algae,Unk_yellow_slime,% cover,0
+4,2,algae,Mastocarpus,% cover,0
+4,2,algae,Petrocelis,% cover,40
+4,2,algae,Corollina,% cover,0
+4,2,algae,Lithothamnium,% cover,50
+4,2,algae,F_distichus,% cover,0
+4,2,algae,Codium,% cover,0
+4,2,algae,Ulva_intestinalis,% cover,0
+4,2,algae,Spongomorpha,% cover,0
+4,2,algae,brown_spongy_carpet,% cover,0
+4,2,algae,Ascophyllum,% cover,0
+4,2,rock,bare_rock,% cover,0
+4,3,algae,Chondrus,% cover,18
+4,3,algae,Unk_yellow_slime,% cover,0
+4,3,algae,Mastocarpus,% cover,0
+4,3,algae,Petrocelis,% cover,10
+4,3,algae,Corollina,% cover,0
+4,3,algae,Lithothamnium,% cover,27
+4,3,algae,F_distichus,% cover,0
+4,3,algae,Codium,% cover,0
+4,3,algae,Ulva_intestinalis,% cover,0
+4,3,algae,Spongomorpha,% cover,0
+4,3,algae,brown_spongy_carpet,% cover,0
+4,3,algae,Ascophyllum,% cover,0
+4,3,rock,bare_rock,% cover,0
+4,4,algae,Chondrus,% cover,25
+4,4,algae,Unk_yellow_slime,% cover,0
+4,4,algae,Mastocarpus,% cover,0
+4,4,algae,Petrocelis,% cover,0
+4,4,algae,Corollina,% cover,0
+4,4,algae,Lithothamnium,% cover,60
+4,4,algae,F_distichus,% cover,0
+4,4,algae,Codium,% cover,0
+4,4,algae,Ulva_intestinalis,% cover,0
+4,4,algae,Spongomorpha,% cover,0
+4,4,algae,brown_spongy_carpet,% cover,0
+4,4,algae,Ascophyllum,% cover,5
+4,4,rock,bare_rock,% cover,0
+4,5,algae,Chondrus,% cover,15
+4,5,algae,Unk_yellow_slime,% cover,0
+4,5,algae,Mastocarpus,% cover,0
+4,5,algae,Petrocelis,% cover,5
+4,5,algae,Corollina,% cover,0
+4,5,algae,Lithothamnium,% cover,75
+4,5,algae,F_distichus,% cover,0
+4,5,algae,Codium,% cover,0
+4,5,algae,Ulva_intestinalis,% cover,0
+4,5,algae,Spongomorpha,% cover,0
+4,5,algae,brown_spongy_carpet,% cover,0
+4,5,algae,Ascophyllum,% cover,0
+4,5,rock,bare_rock,% cover,5
+4,6,algae,Chondrus,% cover,15
+4,6,algae,Unk_yellow_slime,% cover,0
+4,6,algae,Mastocarpus,% cover,0
+4,6,algae,Petrocelis,% cover,0
+4,6,algae,Corollina,% cover,0
+4,6,algae,Lithothamnium,% cover,77
+4,6,algae,F_distichus,% cover,0
+4,6,algae,Codium,% cover,0
+4,6,algae,Ulva_intestinalis,% cover,0
+4,6,algae,Spongomorpha,% cover,1
+4,6,algae,brown_spongy_carpet,% cover,0
+4,6,algae,Ascophyllum,% cover,0
+4,6,rock,bare_rock,% cover,0
+4,7,algae,Chondrus,% cover,20
+4,7,algae,Unk_yellow_slime,% cover,0
+4,7,algae,Mastocarpus,% cover,0
+4,7,algae,Petrocelis,% cover,18
+4,7,algae,Corollina,% cover,0
+4,7,algae,Lithothamnium,% cover,50
+4,7,algae,F_distichus,% cover,0
+4,7,algae,Codium,% cover,0
+4,7,algae,Ulva_intestinalis,% cover,0
+4,7,algae,Spongomorpha,% cover,5
+4,7,algae,brown_spongy_carpet,% cover,0
+4,7,algae,Ascophyllum,% cover,0
+4,7,rock,bare_rock,% cover,0
+4,8,algae,Chondrus,% cover,30
+4,8,algae,Unk_yellow_slime,% cover,0
+4,8,algae,Mastocarpus,% cover,0
+4,8,algae,Petrocelis,% cover,20
+4,8,algae,Corollina,% cover,0
+4,8,algae,Lithothamnium,% cover,0
+4,8,algae,F_distichus,% cover,0
+4,8,algae,Codium,% cover,0
+4,8,algae,Ulva_intestinalis,% cover,0
+4,8,algae,Spongomorpha,% cover,0
+4,8,algae,brown_spongy_carpet,% cover,0
+4,8,algae,Ascophyllum,% cover,10
+4,8,rock,bare_rock,% cover,30
+4,9,algae,Chondrus,% cover,10
+4,9,algae,Unk_yellow_slime,% cover,0
+4,9,algae,Mastocarpus,% cover,0
+4,9,algae,Petrocelis,% cover,20
+4,9,algae,Corollina,% cover,0
+4,9,algae,Lithothamnium,% cover,40
+4,9,algae,F_distichus,% cover,0
+4,9,algae,Codium,% cover,0
+4,9,algae,Ulva_intestinalis,% cover,0
+4,9,algae,Spongomorpha,% cover,5
+4,9,algae,brown_spongy_carpet,% cover,0
+4,9,algae,Ascophyllum,% cover,0
+4,9,rock,bare_rock,% cover,5

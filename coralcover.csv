@@ -1,0 +1,78 @@
+site,type,lat,transect,diver,cc_percent
+1,Back Reef,3,1,4,5.8435758
+1,Back Reef,3,2,4,0.9505263
+1,Back Reef,3,3,4,5.2423389
+1,Back Reef,3,4,5,5.0040475
+1,Back Reef,3,5,5,5.8954916
+2,Patch Reef,3,1,4,5.282619
+2,Patch Reef,3,2,4,6.6559338
+2,Patch Reef,3,3,4,9.948136
+2,Patch Reef,3,4,5,7.1342491
+2,Patch Reef,3,5,5,14.2328145
+2,Patch Reef,3,6,5,27.0607912
+3,Nearshore,3,1,4,1.787141
+3,Nearshore,3,2,4,3.2226166
+3,Nearshore,3,3,4,8.3112835
+3,Nearshore,3,4,5,0.5427304
+3,Nearshore,3,5,5,1.8072011
+3,Nearshore,3,6,5,0.454961
+4,Back Reef,4,1,4,17.7452451
+4,Back Reef,4,2,4,16.4252821
+4,Back Reef,4,3,4,29.5844876
+4,Back Reef,4,4,5,7.8504216
+4,Back Reef,4,5,5,13.7816771
+4,Back Reef,4,6,5,20.8549072
+5,Patch Reef,4,1,4,8.5646355
+5,Patch Reef,4,2,4,5.5866963
+5,Patch Reef,4,3,4,3.3532351
+5,Patch Reef,4,4,5,8.7722559
+5,Patch Reef,4,5,5,8.6448877
+5,Patch Reef,4,6,5,12.3757851
+6,Nearshore,4,1,4,2.2658629
+6,Nearshore,4,2,4,4.0624163
+6,Nearshore,4,3,4,1.5579133
+6,Nearshore,4,4,5,4.5332768
+6,Nearshore,4,5,5,3.6015349
+6,Nearshore,4,6,5,7.9038746
+7,Back Reef,5,1,4,29.618691
+7,Back Reef,5,2,4,27.5528048
+7,Back Reef,5,3,4,20.5706812
+7,Back Reef,5,4,5,31.2776307
+7,Back Reef,5,5,5,21.2563714
+7,Back Reef,5,6,5,20.5095324
+8,Patch Reef,5,1,4,16.2384394
+8,Patch Reef,5,2,4,50.6844907
+8,Patch Reef,5,3,4,29.7911415
+8,Patch Reef,5,4,5,28.2590697
+8,Patch Reef,5,5,5,17.7583581
+8,Patch Reef,5,6,5,28.8017158
+9,Nearshore,5,1,4,4.5312697
+9,Nearshore,5,2,4,4.1386397
+9,Nearshore,5,3,4,2.5472661
+9,Nearshore,5,4,5,1.6083024
+9,Nearshore,5,5,5,0.4555425
+9,Nearshore,5,6,5,3.4816992
+11,Patch Reef,2,1,4,11.9481984
+11,Patch Reef,2,2,4,15.123217
+11,Patch Reef,2,3,4,15.154783
+11,Patch Reef,2,4,5,13.8229756
+11,Patch Reef,2,5,5,3.0065211
+11,Patch Reef,2,6,5,25.9507122
+12,Back Reef,2,1,4,3.0785035
+12,Back Reef,2,2,4,11.530362
+12,Back Reef,2,3,4,10.9873329
+12,Back Reef,2,4,5,6.2608782
+12,Back Reef,2,5,5,5.1524084
+12,Back Reef,2,6,5,4.1462239
+13,Back Reef,1,1,4,2.3932197
+13,Back Reef,1,2,4,1.0804327
+13,Back Reef,1,3,4,3.2455338
+13,Back Reef,1,4,5,6.8670257
+13,Back Reef,1,5,5,3.3898223
+13,Back Reef,1,6,5,7.4802528
+14,Patch Reef,1,1,4,2.4702869
+14,Patch Reef,1,2,4,1.6663234
+14,Patch Reef,1,3,4,1.5463694
+14,Patch Reef,1,4,5,0.4389017
+14,Patch Reef,1,5,5,1.4988514
+14,Patch Reef,1,6,5,0.3722362
